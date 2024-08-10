@@ -1,0 +1,70 @@
+/* Ensure these styles are specific enough and properly applied */
+.container {
+    background-color: #0F1021;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #15162d;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+.form label {
+    color: white;
+    /* Ensure labels are visible */
+}
+
+.form input {
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #272848;
+    /* Ensures background stays consistent */
+    color: white;
+    /* Ensures text color stays consistent */
+    border: 1px solid transparent;
+    /* Border to ensure focus styles are visible */
+    outline: none;
+    padding: 0px 10px;
+    transition: border-color 0.3s, background-color 0.3s;
+
+    -webkit-appearance: none;
+    
+    -moz-appearance: none;
+  
+    appearance: none;
+}
+
+.form input:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+    background-color: #1a1a1a;
+    /* Optional: Change background color on focus */
+}
+
+.form input:hover {
+    border-color: #007bff;
+    /* Change border color on hover */
+}
+
+.button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #D01257;
+    font-weight: bold;
+    color: white;
+    width: 250px;
+    height: 30px;
+    margin: 20px;
+}
