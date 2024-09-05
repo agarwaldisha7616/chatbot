@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #0F1021;
+    background-color: #2a9d8f;
     padding: 0 20px;
 }
 
@@ -15,12 +15,12 @@
     width: 100%;
     max-width: 900px;
     height: 95vh;
-    border: 1px solid #15162d;
-    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.4);
+    border: 1px solid #20756b;
+    box-shadow: 0px 10px 16px #20756b(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #0F1021;
+    background-color: white;
 }
 
 /* Chat Header */
@@ -31,7 +31,7 @@
     align-items: center;
     /* Center items horizontally */
     text-align: center;
-    color: #1E90FF;
+    color: #2a9d8f;
     padding: 20px;
     font-weight: bold;
     border-bottom: 1px solid #15162d;
@@ -63,27 +63,27 @@
     max-width: 70%;
     padding: 15px;
     border-radius: 29px;
-    background-color: #D01257;
+    background-color: #2a9d8f;
     color: white;
     font-weight: 500;
 }
 
 .message.assistant {
-    background-color: #1E90FF;
+    background-color: #20756b;
 }
 
 /* Input Container */
 .input-container {
     display: flex;
     padding: 10px;
-    border-top: 1px solid #0F1021;
+    border-top: 1px solid #20756b;
 
 }
 
 
 
 .input-container button {
-    background-color: #0F1021;
+    background-color: #20756b;
     margin-left: 10px;
     padding: 15px;
     border: none;
@@ -92,25 +92,6 @@
     font-size: 16px;
 }
 
-/* Logout Button */
-.logout-button {
-    background-color: #03346E;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    /* Position on top of the header */
-    top: 10px;
-    /* Space from the top */
-    right: 20px;
-    /* Space from the right */
-    z-index: 1000;
-    /* Ensure button is on top */
-}
 
 
 

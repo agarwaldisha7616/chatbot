@@ -99,11 +99,11 @@ export default function Home() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             style={{
-              backgroundColor: '#0F1021',
+              backgroundColor: 'white',
               borderRadius: '9px',
               fontSize: "larger",
               border: '1px solid #15162d',
-              color: 'white',
+              color: 'black',
               padding: '10px',
               outline: 'none',
               boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
@@ -114,7 +114,7 @@ export default function Home() {
             }}
           />
           <button onClick={sendMessage} >
-            <SendTwoToneIcon sx={{ color: '#1E90FF' }} />
+            <SendTwoToneIcon sx={{ color: '#2a9d8f' }} />
           </button>
         </div>
       </div>
